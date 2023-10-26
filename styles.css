@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url(images/Untitled.jpg) no-repeat center/cover;
+}
+
+.container{
+    height: 300px;
+    width: 35%;
+    background-color: azure;
+    box-shadow: 0 0 10px;
+}
+
+#timer{
+    font-size: 84px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    margin: 0 8px;
+    border: none;
+    background-color: darkslategray;
+    border-radius: 2px;
+    box-shadow: 0 0 1px; 
+}
+
+button i{
+    font-size: 32px;
+    padding: 8px;
+    width: 28px;       
+    color: azure;
+}
+
+ /* #play{
+    background-color: darkslategray;
+}
+
+#pause{
+    background-color: darkslategray;
+}
+#reset{
+    background-color: darkseagreen;
+} */
