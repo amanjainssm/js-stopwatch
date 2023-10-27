@@ -3,19 +3,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
     background: url(images/Untitled.jpg) no-repeat center/cover;
 }
 
 .container{
-    height: 300px;
-    width: 35%;
-    background-color: azure;
-    box-shadow: 0 0 10px;
+    height: 250px;
+    width: 30%;
+    background-color: whitesmoke;
+    border: solid 3px darkcyan;
+    border-radius: 5px;
+    box-shadow: 0 0 20px;
 }
 
 #timer{
-    font-size: 84px;
+    font-size: 90px;
     text-align: center;
     margin: 0 auto;
     padding: 5px;
@@ -23,13 +24,15 @@ body{
 
 .buttons{
     text-align: center;
+    margin-top: 20px;
 }
 
 button{
     margin: 0 8px;
     border: none;
     background-color: darkslategray;
-    border-radius: 2px;
+    border: solid 2px darkcyan;
+    border-radius: 3px;
     box-shadow: 0 0 1px; 
 }
 
@@ -37,7 +40,7 @@ button i{
     font-size: 32px;
     padding: 8px;
     width: 28px;       
-    color: azure;
+    color:antiquewhite;
 }
 
  /* #play{
