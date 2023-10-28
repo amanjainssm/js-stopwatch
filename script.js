@@ -46,4 +46,5 @@ function reset(){
     startStopButton.innerHTML = '<i class="fa-solid fa-play"></i>'
     resetButton.innerHTML = '<i class="fa-solid fa-arrow-rotate-right"></i>'
 }
+
 displayTimer();
